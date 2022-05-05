@@ -2,9 +2,7 @@
 import requests
 import argparse
 import pandas as pd
-from typing import Dict, List, Union
-
-from transformers import ReformerForQuestionAnswering
+from typing import Dict, List
 
 
 def parse_args():
